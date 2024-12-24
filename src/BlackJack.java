@@ -232,7 +232,7 @@ public class BlackJack{
         playerSum = 0;
         playerAces = 0;
 
-        for(int i = 0; i < 2; i++){
+        for(int i=0; i<2; i++){
             card = deck.remove(deck.size()-1);
             playerSum += card.getValue();
             playerAces += card.isAce() ? 1 : 0;
